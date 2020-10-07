@@ -1,0 +1,26 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.input{
+  display:flex;
+}
+.input button{
+  min-width: fit-content;
+}
+.todo-list > li{
+  display: flex;
+  list-style-type: none;
+  font-weight: bold;
+  background-color: rgb(21, 99, 129);
+  padding: 10px 10px;
+  margin: 5px 0px;
+  border-radius: 10px 20px;
+  color: white;
+  text-shadow: 3px 3px 5px lightgray;
+  font-size: 20px;
+}
+.todo-list > li > span{
+  flex: 1;
+}
